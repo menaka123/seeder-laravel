@@ -22,8 +22,8 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## To Run Seeder
-`composer i`
-`composer dump-autoload`
+`composer i` <br>
+`composer dump-autoload`<br>
 `php artisan db:seed` or `php artisan db:seed --class=UsersTableSeeder`
 
 
