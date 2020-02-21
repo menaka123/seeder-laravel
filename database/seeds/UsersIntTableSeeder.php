@@ -14,8 +14,9 @@ class UsersIntTableSeeder extends Seeder
     {
 
         for($i=1; $i<50; $i++) {
+            $phone = [$i, null];
             DB::table('UserInt')->insert(
-                ['name' => "user$i", 'email' => "email$i"]
+                ['name' => "user$i", 'email' => "email$i", 'phone' => $phone[array_rand($phone)]]
             );
         }
     }

@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class ZzCharTableSeederCreate extends Seeder
+class ZzVarcharTableSeederCreate extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,11 +12,11 @@ class ZzCharTableSeederCreate extends Seeder
      */
     public function run()
     {
-        $users = DB::table('UserChar')
+        $users = DB::table('UserVarchar')
             ->select(
-                'UserChar.*', 'HomeChar.id as home_id'
+                'UserVarchar.*', 'HomeVarchar.id as home_id'
             )
-            ->join('HomeChar', 'UserChar.id', '=', 'HomeChar.user_id')
+            ->join('HomeVarchar', 'UserVarchar.id', '=', 'HomeVarchar.user_id')
             ->get()
             ->toArray();
 
@@ -25,9 +25,9 @@ class ZzCharTableSeederCreate extends Seeder
         $st= array_rand($status);
         $id = array_rand($users);
 
-        $AccessId =  DB::table('AccessChar')->orderBy('id', 'desc')->first();
+        $AccessId =  DB::table('AccessVarchar')->orderBy('id', 'desc')->first();
 
-        DB::table('AccessChar')->insert(
+        DB::table('AccessVarchar')->insert(
             [
                 'id' => $AccessId->id + 1,
                 'user_id' => $users[$id]->id,

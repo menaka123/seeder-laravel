@@ -28,6 +28,7 @@ class TableCreateSeeder extends Seeder
             `id` varchar(11) NOT NULL DEFAULT '',
           `name` varchar(50) DEFAULT NULL,
           `email` varchar(100) DEFAULT NULL,
+          `phone` varchar(10) DEFAULT NULL,
           PRIMARY KEY (`id`)
         )");
 
@@ -35,6 +36,7 @@ class TableCreateSeeder extends Seeder
           `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
           `name` varchar(50) DEFAULT NULL,
           `email` varchar(100) DEFAULT NULL,
+          `phone` int(10) DEFAULT NULL,
           PRIMARY KEY (`id`)
         )");
 
@@ -42,6 +44,7 @@ class TableCreateSeeder extends Seeder
           `id` char(7) NOT NULL DEFAULT '',
           `name` varchar(50) DEFAULT NULL,
           `email` varchar(100) DEFAULT NULL,
+          `phone` char(10) DEFAULT NULL,
           PRIMARY KEY (`id`)
         )");
 
@@ -77,6 +80,7 @@ class TableCreateSeeder extends Seeder
           `user_id` char(7) NOT NULL DEFAULT '',
           `home_id` char(7) NOT NULL DEFAULT '',
           `status` char(1) DEFAULT NULL,
+          `phone` char(10) DEFAULT NULL,
           PRIMARY KEY (`id`),
           KEY `user_id` (`user_id`),
           KEY `home_id` (`home_id`),
@@ -89,6 +93,7 @@ class TableCreateSeeder extends Seeder
           `user_id` int(11) unsigned NOT NULL,
           `home_id` int(11) unsigned NOT NULL,
           `status` char(1) DEFAULT NULL,
+          `phone` int(10) DEFAULT NULL,
           PRIMARY KEY (`id`),
           KEY `user_id` (`user_id`),
           KEY `home_id` (`home_id`),
@@ -101,6 +106,7 @@ class TableCreateSeeder extends Seeder
           `user_id` varchar(11) NOT NULL DEFAULT '',
           `home_id` varchar(11) NOT NULL DEFAULT '',
           `status` char(1) DEFAULT NULL,
+          `phone` char(10) DEFAULT NULL,
           PRIMARY KEY (`id`),
           KEY `user_id` (`user_id`),
           KEY `home_id` (`home_id`),

@@ -26,11 +26,14 @@ class AccessIntTableSeeder extends Seeder
             $st= array_rand($status);
             $id = array_rand($users);
 
+            $phone = [rand(1, 50), null];
+
             DB::table('AccessInt')->insert(
                 [
                     'user_id' => $users[$id]->id,
                     'home_id' => $users[$id]->home_id,
-                    'status' => $status[$st]
+                    'status' => $status[$st],
+                    'phone' => $phone[array_rand($phone)]
                 ]
             );
         }

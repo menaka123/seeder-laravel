@@ -26,12 +26,15 @@ class AccessCharTableSeeder extends Seeder
             $st= array_rand($status);
             $id = array_rand($users);
 
+            $phone = [rand(1, 50), null];
+
             DB::table('AccessChar')->insert(
                 [
                     'id' => str_pad($i, 7,"0", STR_PAD_LEFT),
                     'user_id' => $users[$id]->id,
                     'home_id' => $users[$id]->home_id,
-                    'status' => $status[$st]
+                    'status' => $status[$st],
+                    'phone' => $phone[array_rand($phone)]
                 ]
             );
         }
