@@ -13,15 +13,15 @@ class TableCreateSeeder extends Seeder
     public function run()
     {
 
-        DB::statement("Drop table `AccessChar`");
-        DB::statement("Drop table `AccessInt`");
-        DB::statement("Drop table `AccessVarchar`");
-        DB::statement("Drop table `HomeVarchar`");
-        DB::statement("Drop table `HomeInt`");
-        DB::statement("Drop table `HomeChar`");
-        DB::statement("Drop table `UserVarchar`");
-        DB::statement("Drop table `UserInt`");
-        DB::statement("Drop table `UserChar`");
+        //DB::statement("Drop table `AccessChar`");
+        //DB::statement("Drop table `AccessInt`");
+        //DB::statement("Drop table `AccessVarchar`");
+        //DB::statement("Drop table `HomeVarchar`");
+        //DB::statement("Drop table `HomeInt`");
+        //DB::statement("Drop table `HomeChar`");
+        //DB::statement("Drop table `UserVarchar`");
+        //DB::statement("Drop table `UserInt`");
+        //DB::statement("Drop table `UserChar`");
 
 
         DB::statement("CREATE TABLE `UserVarchar` (

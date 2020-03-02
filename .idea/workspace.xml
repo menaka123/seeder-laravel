@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f5e91b-49ef-4210-85d5-6dda3727d8e6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzCharTableSeederDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzCharTableSeederGetWhereJoined.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzCharTableSeederRead.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzCharTableSeederUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzIntTableSeederCreate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzIntTableSeederDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzIntTableSeederGetWhereJoined.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzIntTableSeederRead.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzIntTableSeederUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzVarcharTableSeederCreate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzVarcharTableSeederDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzVarcharTableSeederGetWhereJoined.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzVarcharTableSeederRead.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzVarcharTableSeederUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ZzzDatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/AccessCharTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AccessCharTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/AccessIntTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AccessIntTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/AccessVarCharTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AccessVarCharTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/TableCreateSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/TableCreateSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserCharTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserCharTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserVarcharTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserVarcharTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UsersIntTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersIntTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/ZzCharTableSeederCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ZzCharTableSeederCreate.php" afterDir="false" />
-    </list>
+    <list default="true" id="d1f5e91b-49ef-4210-85d5-6dda3727d8e6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +26,8 @@
       <file leaf-file-name="ZzzDatabaseSeeder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/seeds/ZzzDatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="229" />
+            <state relative-caret-position="521">
+              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -282,12 +257,12 @@
       <workItem from="1579946954449" duration="27000" />
       <workItem from="1580083822887" duration="302000" />
       <workItem from="1580114138024" duration="15093000" />
-      <workItem from="1582202433081" duration="5381000" />
+      <workItem from="1582202433081" duration="6053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36708000" />
+    <option name="totallyTimeSpent" value="37380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -299,8 +274,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2645241" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2645241" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -752,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/ZzzDatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="229" />
+        <state relative-caret-position="521">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
         </state>
       </provider>
     </entry>
