@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableCreateSeeder.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TableCreateSeeder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/seeds/TableCreateSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="-1966">
+              <caret line="23" column="49" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="23" selection-end-column="49" />
               <folding>
                 <element signature="e#7#38#0#PHP" expanded="true" />
               </folding>
@@ -98,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessVarCharTableSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccessVarCharTableSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/AccessVarCharTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -336,12 +336,12 @@
       <workItem from="1579946954449" duration="27000" />
       <workItem from="1580083822887" duration="302000" />
       <workItem from="1580114138024" duration="15093000" />
-      <workItem from="1582202433081" duration="15394000" />
+      <workItem from="1582202433081" duration="15496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46721000" />
+    <option name="totallyTimeSpent" value="46823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -767,16 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/TableCreateSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/AccessIntTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -801,6 +791,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/TableCreateSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1966">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="23" selection-end-column="49" />
           <folding>
             <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
