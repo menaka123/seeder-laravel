@@ -11,10 +11,10 @@ class ZzzDatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $this->call(ZzCharTableSeederDelete::class);
         $this->call(ZzCharTableSeederCreate::class);
         $this->call(ZzCharTableSeederUpdate::class);
         $this->call(ZzCharTableSeederRead::class);
-        $this->call(ZzCharTableSeederDelete::class);
         $this->call(ZzCharTableSeederGetWhereJoined::class);
         //select * from AccessChar;
         //select COUNT(*)  from AccessChar;
